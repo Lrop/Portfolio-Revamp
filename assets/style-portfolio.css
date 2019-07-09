@@ -1,8 +1,9 @@
-.mainSection {
+#mainSection {
     height: 700px;
     padding: 40px;
     margin: 30px;
     background-color: white;
+    box-shadow: 0 0 0 8px grey  
 }
 #mainSection-projects{
     height: 700px;
@@ -10,17 +11,23 @@
     margin: 30px;
     background-color: white;
     padding-bottom: 40px;
+    box-shadow: 0 0 0 8px grey  
 }
-.mainSection-form {
-    height: 700px;
+#mainSection-form {
+    height: 500px;
     padding: 40px;
     margin: 30px;
     background-color: white;
+    box-shadow: 0 0 0 8px grey;
+    padding-bottom: 25px;  
 }
 
 img {
     float: left;
     position: relative;
+}
+.navbar {
+    height: 60px;
 }
 
 
@@ -43,6 +50,7 @@ body {
 .card-img-top {
     height: 200px;
     width: 200px;
+    border-style: solid black;
 }
 
 .caption {
@@ -61,11 +69,13 @@ body {
 
 .img1 {
     margin-right: 30px;
+    margin-bottom: 10px;
+    box-shadow:  0 0 0 2px black;
 }
 .footer {
     background-color: #343a40;
     color: black;
-    height: 60px;
+    height: 35px;
     text-align: center;
     border-top: 8px solid #4aaaa5;
     position: fixed;
