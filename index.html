@@ -7,17 +7,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- BootStrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/style-portfolio.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
     <!-- JS -->
     <script src="assets/java-portfolio.js"></script>
     <title>Portfolio Revamp</title>
 </head>
 
 <body>
+    
+    
+    <!-- <div class="container">
+        <div class="main">
+        <h2>Javascript Login Form Validation</h2>
+        <form id="form_id" method="post" name="myform">
+        <label>User Name :</label>
+        <input type="text" name="username" id="username"/>
+        <label>Password :</label>
+        <input type="password" name="password" id="password"/>
+        <input type="button" value="Login" id="submit" onclick="validate()"/>
+        </form>
+        <span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Formget<br/>Password : formget#123</b></span>
+        </div>
+        </div> -->
+
 
     <nav id="nav-bar" class="navbar sticky-top navbar-expand-lg navbar-expand-md navbar-expand-sm pl-3 pr-3">
         <a class="navbar-brand p-3" id="nameTag" href="#">Luke Ropner</a>
@@ -27,16 +46,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav nav d-flex justify-content-end ml-auto">
-                <a class="nav-item active" href="#mainSection">About</a>
-                <a class="nav-item active" href="#mainSection-projects">Portfolio</a>
-                <a class="nav-item active" href="#mainSection-form">Contact</a>
+                <a class="nav-item active" href="#h1-1">About</a>
+                <a class="nav-item active" href="#h1-2">Portfolio</a>
+                <a class="nav-item active" href="#h1-3">Contact</a>
             </div>
         </div>
     </nav>
 
+
+    <div class="form-container form-inline">
+            <input type="text" class="form-control-input" id="search" placeholder="Search by City, State, Zip">
+            <button id="submit" class="button-submit">Submit</button>
+          </div>
+        
+
     <section id="mainSection">
         <div class="container">
-            <h1>About Me</h1>
+            <h1 id="h1-1">About Me</h1>
             <hr>
         </div>
 
@@ -66,12 +92,14 @@
 
         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor omnis, repellat aspernatur vitae alias quasi
             ipsum incidunt et ullam quam sapiente similique eius. Sunt consequatur ratione dolore a vel recusandae!Lorem
-             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas dolor dicta quibusdam, ratione optio cupiditate
-              culpa maxime nostrum. Iure, cumque. Hic ut quis repellat quasi tempore exercitationem est excepturi! Iusto.</P>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas dolor dicta quibusdam, ratione optio
+            cupiditate
+            culpa maxime nostrum. Iure, cumque. Hic ut quis repellat quasi tempore exercitationem est excepturi! Iusto.
+        </P>
     </section>
 
     <section id="mainSection-projects">
-        <h1>Portfolio</h1>
+        <h1 id="h1-2">Portfolio</h1>
         <hr>
 
 
@@ -128,7 +156,7 @@
 
     <div id="container">
         <section id="mainSection-form">
-            <h1>Contact</h1>
+            <h1 id="h1-3">Contact</h1>
             <hr>
 
             <form>
@@ -137,7 +165,7 @@
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                         placeholder="Enter email">
                     <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone -->
-                        <!-- else.</small> -->
+                    <!-- else.</small> -->
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>
@@ -156,32 +184,36 @@
     </div>
 
     <div id="container">
-            <section id="mainSection-form">
-                <h1 id="bottom-form-header">Links</h1>
-                <hr>
+        <section id="mainSection-links">
+            <h1 id="bottom-form-header">Links</h1>
+            <hr>
 
-                
-        <div class="card">
-                <img src="images/download.jpg" class="card-img-top" alt="project1">
-                <div class="card-body">
-                    <div class="caption">
-                        <p class="card-text">Giphtastic</p>
-                    </div>
-                </div>
+
+            <div class="card">
+                <img src="images/GitHub_Logo.png" id="logo-img-top" class="card-img-top" alt="project1">
+            </div>
+
+            <div class="card">
+                <img src="images/Octocat.jpg" id="logo-img-top" class="card-img-top" alt="project1">
+            </div>
+
+            <div class="card">
+                <img src="images/LI-Logo.png" id="logo-img-top" class="card-img-top" alt="project1">
             </div>
 
 
-              
-    
-            </section>
-    
 
 
+        </section>
 
 
-    <footer class="footer">
-        <span class="footertext">&copy; 2019 Luke Ropner</span>
-    </footer>
+        <br>
+        <br>
+
+
+        <footer class="footer">
+            <span class="footertext">&copy; 2019 Luke Ropner</span>
+        </footer>
 
 
 

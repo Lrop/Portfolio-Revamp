@@ -18,6 +18,7 @@ h1 {
 }
 #mainSection-projects{
     height: 700px;
+    text-align: center;
     padding: 40px;
     margin: 30px;
     background-color: white;
@@ -34,6 +35,14 @@ h1 {
     background-color: white;
     box-shadow: 0 0 0 8px black;
     /* padding-bottom: 25px;   */
+}
+#mainSection-links{
+    height: 300px;
+    margin-bottom: 35px;
+    padding: 40px;
+    margin: 30px;
+    background-color: white;
+    box-shadow: 0 0 0 8px black;
 }
 .nav-item {
     color: white;
@@ -53,13 +62,16 @@ img {
 }
 ;
 .navbar {
-    height: 60px;
+    height: 90px;
+    padding: 0px;
     background-color: black;
     color: yellow;
     text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
   
 }
 #nav-bar {
+    height: 75px;
+    padding: 10px;
     background-color: black;
     color: white;
     color: yellow;
@@ -139,4 +151,7 @@ body {
 }
 #bottom-form-header {
     text-align: center;
+}
+#logo-img-top {
+    height: 100px;
 }
