@@ -2,7 +2,8 @@
     height: 620px;
     padding: 40px;
     margin: 30px;
-    background-color: white;
+    /* background-color: white; */
+    background-color: black;
     box-shadow: 0 0 0 8px black; 
     font-family: 'Alfa Slab One', cursive;
     color: black;
@@ -21,7 +22,8 @@ h1 {
     text-align: center;
     padding: 40px;
     margin: 30px;
-    background-color: white;
+    /* background-color: white; */
+    background-color: black;
     padding-bottom: 40px;
     box-shadow: 0 0 0 8px black; 
     font-family: 'Alfa Slab One', cursive;
@@ -29,10 +31,12 @@ h1 {
    
 }
 #mainSection-form {
+    color: white;
     height: 500px;
     padding: 40px;
     margin: 30px;
-    background-color: white;
+    /* background-color: white; */
+    background-color: black;
     box-shadow: 0 0 0 8px black;
     /* padding-bottom: 25px;   */
 }
@@ -41,8 +45,9 @@ h1 {
     margin-bottom: 35px;
     padding: 40px;
     margin: 30px;
-    background-color: white;
+    background-color: black;
     box-shadow: 0 0 0 8px black;
+   
 }
 .nav-item {
     color: white;
@@ -50,6 +55,13 @@ h1 {
     font-family: 'Alfa Slab One', cursive;
     text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
     /* text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black; */
+}
+.nav-item:hover {
+    color: yellow;
+    text-shadow: none;
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
 }
 #name-tag {
     color: white;
@@ -74,10 +86,12 @@ img {
     padding: 10px;
     background-color: black;
     color: white;
-    color: yellow;
     text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
   
 }
+/* #nav-bar:hover {
+    color: yellow;
+} */
 
 
 #idtag {
@@ -90,6 +104,15 @@ img {
     margin: 15px;
     margin-right: 90px;
     position: relative;
+    /* border-style: none; */
+}
+.card-1 {
+    float: left;
+    padding: 5px;
+    margin: 15px;
+    margin-right: 90px;
+    position: relative;
+    border-style: none;
 }
 body {
     background-color: black;
@@ -149,9 +172,35 @@ body {
     font-family: 'Alfa Slab One', cursive;
     text-shadow: -1px 0 white, 0 4px white, 4px 0 white, 0 -1px white;
 }
+.navbar-brand:hover {
+    text-shadow: none;
+    color: yellow;
+}
 #bottom-form-header {
     text-align: center;
 }
 #logo-img-top {
     height: 100px;
 }
+#h1-3 {
+    text-align: center;
+}
+/* .navbar-brand {
+    animation: pulse 20s infinite;
+}
+ 
+/* #h1-1 {
+    animation: pulse 10s infinite;
+} */
+/* @keyframes pulse {
+    0% {
+      color: black;
+      
+    }
+    50% {
+      color: gray;
+    }
+    100% {
+        color: black;
+      }
+} */ 
