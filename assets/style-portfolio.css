@@ -1,9 +1,20 @@
 #mainSection {
-    height: 600px;
+    height: 620px;
     padding: 40px;
     margin: 30px;
     background-color: white;
     box-shadow: 0 0 0 8px black; 
+    font-family: 'Alfa Slab One', cursive;
+    color: black;
+    text-shadow: -1px 0 yellow, 0 4px yellow, 4px 0 yellow, 0 -1px yellow;
+}
+#name-tag {
+    font-size: 55px;
+}
+h1 {
+    color: yellow;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
 }
 #mainSection-projects{
     height: 700px;
@@ -11,7 +22,10 @@
     margin: 30px;
     background-color: white;
     padding-bottom: 40px;
-    box-shadow: 0 0 0 8px black;  
+    box-shadow: 0 0 0 8px black; 
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
+   
 }
 #mainSection-form {
     height: 500px;
@@ -19,11 +33,13 @@
     margin: 30px;
     background-color: white;
     box-shadow: 0 0 0 8px black;
-    padding-bottom: 25px;  
+    /* padding-bottom: 25px;   */
 }
 .nav-item {
     color: white;
     padding: 5px;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
     /* text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black; */
 }
 #name-tag {
@@ -38,14 +54,17 @@ img {
 ;
 .navbar {
     height: 60px;
-    /* background-color: black; */
-    background-image: url(https://images.unsplash.com/photo-1432250681869-3784e3d5a99f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80);
+    background-color: black;
+    color: yellow;
+    text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
+  
 }
 #nav-bar {
     background-color: black;
     color: white;
-     background-image: url(https://images.unsplash.com/photo-1527678524043-1e3209482e3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=688&q=80);
-    /* background-image: url(https://images.unsplash.com/photo-1432250681869-3784e3d5a99f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80); */
+    color: yellow;
+    text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
+  
 }
 
 
@@ -60,17 +79,14 @@ img {
     margin-right: 90px;
     position: relative;
 }
-
 body {
-    background-color: wheat;
+    background-color: black;
 }
-
 .card-img-top {
     height: 200px;
     width: 200px;
     border-style: solid black;
 }
-
 .caption {
     position: absolute;
     top: 65%;
@@ -114,5 +130,8 @@ body {
 
 }
 .navbar-brand {
-    color: white;
+    font-size: 40px;
+    color: black;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: -1px 0 white, 0 4px white, 4px 0 white, 0 -1px white;
 }
