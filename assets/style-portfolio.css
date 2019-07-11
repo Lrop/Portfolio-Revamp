@@ -122,16 +122,21 @@ body {
     color: white;
 }
 .btn-primary {
-    color: #fff;
     /* background-color: #007bff; */
-    background-color: black;
+    background-color:black;
     /* border-color: #007bff; */
     width: 1123px;
-
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
+  
 }
 .navbar-brand {
     font-size: 40px;
     color: black;
     font-family: 'Alfa Slab One', cursive;
     text-shadow: -1px 0 white, 0 4px white, 4px 0 white, 0 -1px white;
+}
+#bottom-form-header {
+    text-align: center;
 }
