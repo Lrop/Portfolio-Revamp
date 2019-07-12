@@ -21,10 +21,10 @@ h1 {
     text-align: center;
 }
 hr {
-    border-top: 3px solid white;
+    border-top: 3px solid yellow;
 }
 #mainSection-projects{
-    height: 700px;
+    height: 625px;
     text-align: center;
     padding: 40px;
     margin: 30px;
@@ -40,6 +40,7 @@ hr {
     color: white;
     height: 500px;
     padding: 40px;
+    padding-top: 0px;
     margin: 30px;
     /* background-color: white; */
     background-color: black;
@@ -176,13 +177,18 @@ body {
 }
 .btn-primary {
     /* background-color: #007bff; */
+    border-style: solid black;
     background-color:black;
-    /* border-color: #007bff; */
+    border-color: black;
     width: 1123px;
     color: white;
     font-family: 'Alfa Slab One', cursive;
     text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
   
+}
+.btn-primary:hover {
+    background-color: yellow;
+    border-color: black; 
 }
 .navbar-brand {
     font-size: 40px;
