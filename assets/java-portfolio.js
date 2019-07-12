@@ -62,15 +62,31 @@
 //     }
 
 
-function unhide(clickedButton, divID) {
-    var item = document.getElementById(divID);
-    if (item) {
-        if(item.className=='hidden'){
-            item.className = 'unhidden' ;
-            clickedButton.value = 'hide'
-        }else{
-            item.className = 'hidden';
-            clickedButton.value = 'unhide'
-        }
-    }}
+// function unhide(clickedButton, divID) {
+//     var item = document.getElementById(divID);
+//     if (item) {
+//         if(item.className=='hidden'){
+//             item.className = 'unhidden' ;
+//             clickedButton.value = 'hide'
+//         }else{
+//             item.className = 'hidden';
+//             clickedButton.value = 'unhide'
+//         }
+//     }}
     
+$(document).ready(function () {
+    $("#main-section").hide();
+    
+    let input = document.getElementById("submit");
+        // Execute a function when the user releases a key on the keyboard
+        input.addEventListener("keyup", function(event) {
+            // Number 13 is the "Enter" key on the keyboard
+            if (event.keyCode === 13) {
+                // Cancel the default action, if needed
+                event.preventDefault();
+                // Trigger the button element with a click
+                document.getElementById("submit").click();
+            }
+        });
+
+    });
