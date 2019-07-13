@@ -1,5 +1,5 @@
 #mainSection {
-    height: 620px;
+    height: 550px;
     padding: 40px;
     margin: 30px;
     padding-top: 0px;
@@ -128,7 +128,7 @@ img {
     box-shadow: 2px white;
 }
 #container-links {
-    padding-left: 390px;
+    padding-left: 280px;
     text-align: center;
     margin: auto;
     padding-bottom: 20px;
