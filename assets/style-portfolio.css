@@ -1,4 +1,5 @@
 #mainSection {
+    position: relative;
     height: 550px;
     padding: 40px;
     margin: 30px;
@@ -17,6 +18,7 @@
     font-size: 55px;
 }
 h1 {
+    position: relative;
     color: black;
     font-family: 'Alfa Slab One', cursive;
     text-shadow: -1px 0 yellow, 0 4px yellow, 4px 0 yellow, 0 -1px yellow;
@@ -26,6 +28,7 @@ hr {
     border-top: 3px solid yellow;
 }
 #mainSection-projects{
+    position: relative;
     height: 625px;
     text-align: center;
     padding: 40px;
@@ -40,6 +43,7 @@ hr {
    
 }
 #mainSection-form {
+    position: relative;
     color: white;
     height: 500px;
     padding: 40px;
@@ -51,6 +55,7 @@ hr {
     /* padding-bottom: 25px;   */
 }
 #mainSection-links{
+    position: relative;
     height: 200px;
     margin-bottom: 35px;
     padding: 40px;
