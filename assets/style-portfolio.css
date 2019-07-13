@@ -128,8 +128,11 @@ img {
     box-shadow: 2px white;
 }
 #container-links {
+    padding-left: 390px;
     text-align: center;
     margin: auto;
+    padding-bottom: 20px;
+    height: 150px;
 }
 .card-1 {
     float: left;
@@ -138,7 +141,6 @@ img {
     margin-right: 90px;
     position: relative;
     border-style: none;
-    
 }
 body {
     background-color: black;
@@ -175,7 +177,7 @@ body {
 .footer {
     background-color: black;
     color: black;
-    height: 35px;
+    height: 45px;
     text-align: center;
     border-top: 8px solid yellow;
     position: fixed;
@@ -183,9 +185,11 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
+    padding-top: 5px;
 }
 .footertext {
     color: white;
+    font-family: 'Alfa Slab One', cursive;
 }
 .btn-primary {
     /* background-color: #007bff; */
