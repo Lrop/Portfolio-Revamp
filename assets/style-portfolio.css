@@ -1,6 +1,12 @@
+html {
+
+    width: 100%;
+
+}
+
 #mainSection {
     position: relative;
-    height: 550px;
+    height: max-content;
     padding: 40px;
     margin: 30px;
     padding-top: 0px;
@@ -149,6 +155,7 @@ img {
 }
 body {
     background-color: black;
+    width: 100%;
 }
 .card-img-top {
     height: 200px;
@@ -303,5 +310,27 @@ body {
     /* text-shadow: -1px 0 white, 0 4px white, 4px 0 white, 0 -1px white; */
     text-shadow: -1px 0 yellow, 0 4px yellow, 4px 0 yellow, 0 -1px yellow;
     color: black;   
+    /* cursor: pointer; */
     cursor: pointer;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    #mainSection {
+        position: relative;
+        height: 750px;
+        padding: 40px;
+        margin: 30px;
+        padding-top: 0px;
+        background-color: black;
+        border-style: solid white;
+        font-family: 'Alfa Slab One', cursive;
+        color: yellow;
+        text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
+    
+       
+    }
+   
+  } 
